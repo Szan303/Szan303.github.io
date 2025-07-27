@@ -1,4 +1,3 @@
-// usuń document.addEventListener(...)
 const input = document.getElementById('search');
 const items = Array.from(document.querySelectorAll('.gallery-item'));
 
