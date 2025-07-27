@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Opis
         const p = document.createElement('p');
-        p.textContent = desc;
+        p.innerHTML = desc;               // <-- pozwala na <br> i inne tagi HTML
         p.style.color = 'var(--text)';
         modal.appendChild(p);
 
