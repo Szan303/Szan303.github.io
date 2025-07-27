@@ -1,14 +1,14 @@
-// script.js
-document.addEventListener('DOMContentLoaded', () => {
-    // Zakładam, że każdy element otwierający modal ma klasę .js-open-modal
-    // i atrybut data-modal-content z HTML-em lub tekstem, który chcemy pokazać.
-    const triggers = document.querySelectorAll('.js-open-modal')
+const input = document.getElementById('search');
+const items = Array.from(document.querySelectorAll('.gallery-item'));
 
-    triggers.forEach((btn) => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault()
-            const html = btn.getAttribute('data-modal-content') || '<p>Brak zawartości</p>'
-            window.openModal(html)
-        })
-    })
-})
+if (!input || items.length === 0) {
+    console.warn('search.js: Brak #search lub .gallery-item w DOM');
+} else {
+    input.addEventListener('input', e => {
+        const query = e.target.value.trim().toLowerCase();
+        items.forEach(item => {
+            const title = item.querySelector('h4')?.textContent.toLowerCase() || '';
+            item.style.display = title.includes(query) ? '' : 'none';
+        });
+    });
+}
