@@ -17,24 +17,37 @@
 </header>
 
 <nav class="main-nav container">
-    <a href="index.html"></a>
+    <a href="index.html">Strona główna</a>
     <a href="https://discord.gg/K9CfCw6skX" target="_blank">Discord</a>
     <a href="about.html">O nas</a>
 </nav>
 
 <main class="site-main container">
+
+    <!-- ======= SEARCH BAR ======= -->
     <section class="search-bar">
         <div class="search-wrapper">
-            <!-- Ikonka lupy SVG -->
             <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M10 2a8 8 0 015.29 13.71l5 5a1 1 0 01-1.42 1.42l-5-5A8 8 0 1110 2zm0 2a6 6 0 100 12 6 6 0 000-12z"/>
             </svg>
-            <input type="search" id="search" placeholder="Szukaj elementu..." />
+            <input type="search" id="search" placeholder="Szukaj builda..." />
         </div>
     </section>
 
+    <!-- ======= FILTER BUTTONS ======= -->
+    <div class="filter-buttons">
+        <button class="filter-button active" data-filter="all">Wszystkie</button>
+        <button class="filter-button" data-filter="ZvZ">ZvZ</button>
+        <button class="filter-button" data-filter="Grupowki">Grupówki</button>
+        <button class="filter-button" data-filter="">Support</button>
+        <button class="filter-button" data-filter="dps">DPS</button>
+    </div>
+
+
+    <!-- ======= GALLERY ======= -->
     <section class="gallery" id="gallery">
         <div class="gallery-item"
+             data-category="ZvZ"
              data-description="Rola: Caller <br><br>
              Generalnie tego builda używa caller by sprężać przeciwników do danej pozycji po to żeby wysadzić w nich bombę lub ich wystraszyć zmuszając do użycia defek działa tek że tworzy ściane za przeciwnikami i przyciąga ich do siebie jedną z metod ucieknięcia na butach straży gobowej to uciekanie w przeciwników aby nie dostać aż tak mocnej lepy lub w bok jak to możliwe nigdy przez ściane bo jak nie ma żadnego rycka lub runy to ściana odbija <br><br>
               Umiejętności:<br>
@@ -45,22 +58,24 @@
               <li>Buty: 3 ; 1</li>
               </ul>"
              data-video="https://www.youtube.com/embed/MA5kP8JSfFE">
-            <img src="assets/gallerybuilds/tank/Golem.png" alt="Golem" />
-            <h4>Golem</h4>
-        </div>
-        <!--=========================================================================================================-->
-        <div class="gallery-item"
-            data-description="Rola: Caller/OffCaller <br><br>"
-            data-video="">
-            <img src="assets/gallerybuilds/tank/Hoj.png" alt="Hoj" />
-            <h4>Hoj</h4>
+            <img src="assets/gallerybuilds/tank/Golem_ZvZ.png" alt="Golem" />
+            <h4>ZvZ: Golem</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description="Rola: Caller/OffCaller <br><br>"
+             data-category="ZvZ"
+             data-video="">
+            <img src="assets/gallerybuilds/tank/Hoj.png" alt="Hoj" />
+            <h4>ZvZ: Hoj</h4>
+        </div>
+        <!--=========================================================================================================-->
+        <div class="gallery-item"
+             data-description="Rola: Caller/OffCaller <br><br>"
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/tank/1hmace.png" alt="1h mace" />
-            <h4>1h mace</h4>
+            <h4>ZvZ: 1h mace</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
@@ -73,10 +88,10 @@
               <li>Zbroja: 3 ; 1</li>
               <li>Buty: 3 ; 1</li>
               </ul>"
-
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/heal/pozoga.png" alt="Pożoga" />
-            <h4>Pożoga</h4>
+            <h4>ZvZ: Pożoga</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
@@ -88,16 +103,18 @@
               <li>Zbroja: 3 ; 1</li>
               <li>Buty: 3 ; 1</li>
               </ul>"
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/heal/Fallen.png" alt="Orion" />
-            <h4>Fallen</h4>
+            <h4>ZvZ: Fallen</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/heal/Odkupienia.png" alt="Luna" />
-            <h4>Odkupienia</h4>
+            <h4>ZvZ: Odkupienia</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
@@ -109,121 +126,138 @@
               <li>Zbroja: 3 ; 1</li>
               <li>Buty: 3 ; 1</li>
               </ul>"
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/heal/Dziki.png" alt="Vega" />
-            <h4>Dziki</h4>
+            <h4>ZvZ: Dziki</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Mrocznakula.png" alt="Astra" />
-            <h4>Mroczna kula</h4>
+            <h4>ZvZ: Mroczna kula</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Enigmatyczny.png" alt="Comet" />
-            <h4>Enigmatyczny</h4>
+            <h4>ZvZ: Enigmatyczny</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Ent.png" alt="Solaris" />
-            <h4>Ent</h4>
+            <h4>ZvZ: Ent</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Shadowcaller.png" alt="Cosmo" />
-            <h4>Shadow caller</h4>
+            <h4>ZvZ: Shadow caller</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Lifecurse.png" alt="Rigel" />
-            <h4>Life curse</h4>
+            <h4>ZvZ: Life curse</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/support/Damnation.png" alt="Sirius" />
-            <h4>Damnation</h4>
+            <h4>ZvZ: Damnation</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/dps/Longbow.png" alt="Lyra" />
-            <h4>Long bow</h4>
+            <h4>ZvZ: Long bow</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/dps/Avabow.png" alt="Draco" />
-            <h4>Ava bow</h4>
+            <h4>ZvZ: Ava bow</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/dps/Szczeliny.png" alt="Phoenix" />
-            <h4>Glewia Szczeliny</h4>
+            <h4>ZvZ: Glewia Szczeliny</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/dps/Perma.png" alt="Hydra" />
-            <h4>Perma</h4>
+            <h4>ZvZ: Perma</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/dps/Kolczaste.png" alt="Pegasus" />
-            <h4>Kolczaste</h4>
+            <h4>ZvZ: Kolczaste</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/battlemount/BmLight.png" alt="Vortex" />
-            <h4>Battle mount Backline</h4>
+            <h4>ZvZ: Battle mount Backline</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/tank/Hmace.png" alt="Quasar" />
-            <h4>Heavy mace</h4>
+            <h4>ZvZ: Heavy mace</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/tank/Inkub.png" alt="Quasar" />
-            <h4>Inkub</h4>
+            <h4>ZvZ: Inkub</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/tank/Kloda.png" alt="Quasar" />
-            <h4>Kloda</h4>
+            <h4>ZvZ: Kloda</h4>
         </div>
         <!--=========================================================================================================-->
         <div class="gallery-item"
              data-description=""
+             data-category="ZvZ"
              data-video="">
             <img src="assets/gallerybuilds/tank/1hmlotek.png" alt="Quasar" />
-            <h4>1h młotek</h4>
+            <h4>ZvZ: 1h młotek</h4>
         </div>
         <!--=========================================================================================================-->
 <!--    <div class="gallery-item">-->
@@ -248,4 +282,5 @@
 </body>
 <script src="search.js"></script>
 <script src="modal.js"></script>
+<script src="gallery.js"></script>
 </html>
