@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "1h holy Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Średni",
+    "image": "1h_holy_Grupowki.png"
+  },
+  {
+    "id": 2,
+    "name": "Blazing Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Łatwy",
+    "image": "blazing_Grupowki.png"
+  },
+  {
+    "id": 3,
+    "name": "Chillhowl Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Łatwy",
+    "image": "build3.png"
+  },
+  {
+    "id": 4,
+    "name": "Shadow Caller Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Średni",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "Wielotrzałowiec Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Łatwy",
+    "image": "build2.png"
+  },
+  {
+    "id": 6,
+    "name": "Light Caller Grupówki",
+    "category": "Grupówki",
+    "difficulty": "Średni",
+    "image": "build3.png"
+  },
+  {
+    "id": 7,
+    "name": "1h holy HCE",
+    "category": "HCE",
+    "difficulty": "Trudny",
+    "image": "build3.png"
+  },
+  {
+    "id": 8,
+    "name": "Chillhowl HCE",
+    "category": "HCE",
+    "difficulty": "Łatwy",
+    "image": "build3.png"
+  },
+  {
+    "id": 9,
+    "name": "Light Caller HCE",
+    "category": "HCE",
+    "difficulty": "Średni",
+    "image": "build3.png"
+  },
+  {
+    "id": 10,
+    "name": "Shadow Caller HCE",
+    "category": "HCE",
+    "difficulty": "Średni",
+    "image": "build3.png"
+  },
+  {
+    "id": 11,
+    "name": "Wielotrzałowiec HCE",
+    "category": "HCE",
+    "difficulty": "Łatwy",
+    "image": "build3.png"
+  }
+
+]
