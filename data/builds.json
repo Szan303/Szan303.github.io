@@ -4,42 +4,42 @@
     "name": "1h holy Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "1h_holy_grupowki.png"
+    "image": "grupowki_1h_holy.png"
   },
   {
     "id": 2,
     "name": "Blazing Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "blazing_grupowki.png"
+    "image": "grupowki_blazing.png"
   },
   {
     "id": 3,
     "name": "Chillhowl Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "placeholder.png"
+    "image": "grupowki_chillhowl.png"
   },
   {
     "id": 4,
     "name": "Shadow Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "placeholder.png"
+    "image": "grupowki_shadow_caller.png"
   },
   {
     "id": 5,
     "name": "Wielotrzałowiec Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "placeholder.png"
+    "image": "grupowki_wielotrzalowiec.png"
   },
   {
     "id": 6,
     "name": "Light Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "placeholder.png"
+    "image": "grupowki_light_caller.png"
   },
   {
     "id": 7,
@@ -74,7 +74,6 @@
     "name": "Wielotrzałowiec HCE",
     "category": "HCE",
     "difficulty": "Łatwy",
-    "image": "placeholder.png"
+    "image": ""
   }
-
 ]
