@@ -18,28 +18,28 @@
     "name": "Chillhowl Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "build3.png"
+    "image": "placeholder.png"
   },
   {
     "id": 4,
     "name": "Shadow Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": ""
+    "image": "placeholder.png"
   },
   {
     "id": 5,
     "name": "Wielotrzałowiec Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "build2.png"
+    "image": "placeholder.png"
   },
   {
     "id": 6,
     "name": "Light Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "build3.png"
+    "image": "placeholder.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "name": "Wielotrzałowiec HCE",
     "category": "HCE",
     "difficulty": "Łatwy",
-    "image": "hce_wielotrzalowiec.png"
+    "image": "placeholder.png"
   }
 
 ]
