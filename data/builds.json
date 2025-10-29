@@ -4,70 +4,70 @@
     "name": "1h holy Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "grupowki_1h_holy.png"
+    "image": "grupowki_1h_holy"
   },
   {
     "id": 2,
     "name": "Blazing Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "grupowki_blazing.png"
+    "image": "grupowki_blazing"
   },
   {
     "id": 3,
     "name": "Chillhowl Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "grupowki_chillhowl.png"
+    "image": "grupowki_chillhowl"
   },
   {
     "id": 4,
     "name": "Shadow Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "grupowki_shadow_caller.png"
+    "image": "grupowki_shadow_caller"
   },
   {
     "id": 5,
     "name": "Wielotrzałowiec Grupówki",
     "category": "Grupówki",
     "difficulty": "Łatwy",
-    "image": "grupowki_wielotrzalowiec.png"
+    "image": "grupowki_wielotrzalowiec"
   },
   {
     "id": 6,
     "name": "Light Caller Grupówki",
     "category": "Grupówki",
     "difficulty": "Średni",
-    "image": "grupowki_light_caller.png"
+    "image": "grupowki_light_caller"
   },
   {
     "id": 7,
     "name": "1h holy HCE",
     "category": "HCE",
     "difficulty": "Trudny",
-    "image": "hce_heal.png"
+    "image": "hce_heal"
   },
   {
     "id": 8,
     "name": "Chillhowl HCE",
     "category": "HCE",
     "difficulty": "Łatwy",
-    "image": "hce_chillhowl.png"
+    "image": "hce_chillhowl"
   },
   {
     "id": 9,
     "name": "Light Caller HCE",
     "category": "HCE",
     "difficulty": "Średni",
-    "image": "hce_light_caller.png"
+    "image": "hce_light_caller"
   },
   {
     "id": 10,
     "name": "Shadow Caller HCE",
     "category": "HCE",
     "difficulty": "Średni",
-    "image": "hce_shadow_caller.png"
+    "image": "hce_shadow_caller"
   },
   {
     "id": 11,
@@ -75,5 +75,61 @@
     "category": "HCE",
     "difficulty": "Łatwy",
     "image": ""
+  },
+  {
+    "id": 12,
+    "name": "IR WB",
+    "category": "WB",
+    "difficulty": "Średni",
+    "image": "wb_ir"
+  },
+  {
+    "id": 13,
+    "name": "SC WB",
+    "category": "WB",
+    "difficulty": "Łatwy",
+    "image": "wb_sc"
+  },
+  {
+    "id": 14,
+    "name": "Heal WB",
+    "category": "WB",
+    "difficulty": "Średni",
+    "image": ""
+  },
+  {
+    "id": 15,
+    "name": "Wielotrzałowiec WB",
+    "category": "WB",
+    "difficulty": "Łatwy",
+    "image": ""
+  },
+  {
+    "id": 16,
+    "name": "Permafrost WB",
+    "category": "WB",
+    "difficulty": "Łatwy",
+    "image": ""
+  },
+  {
+    "id": 17,
+    "name": "Badon WB",
+    "category": "WB",
+    "difficulty": "Łatwy",
+    "image": ""
+  },
+  {
+    "id": 18,
+    "name": "Light Caller WB",
+    "category": "WB",
+    "difficulty": "Średni",
+    "image": ""
+  },
+  {
+    "id": 19,
+    "name": "Spalara WB build tymczas",
+    "category": "WB",
+    "difficulty": "Łatwy",
+    "image": "wb_spalara"
   }
 ]
