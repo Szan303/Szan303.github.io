@@ -95,35 +95,35 @@
     "name": "Heal WB",
     "category": "WB",
     "difficulty": "Średni",
-    "image": ""
+    "image": "wb_heal"
   },
   {
     "id": 15,
     "name": "Wielotrzałowiec WB",
     "category": "WB",
     "difficulty": "Łatwy",
-    "image": ""
+    "image": "wb_wielostrzalowiec"
   },
   {
     "id": 16,
     "name": "Permafrost WB",
     "category": "WB",
     "difficulty": "Łatwy",
-    "image": ""
+    "image": "wb_permafrost"
   },
   {
     "id": 17,
     "name": "Badon WB",
     "category": "WB",
     "difficulty": "Łatwy",
-    "image": ""
+    "image": "wb_badon"
   },
   {
     "id": 18,
     "name": "Light Caller WB",
     "category": "WB",
     "difficulty": "Średni",
-    "image": ""
+    "image": "wb_lightcaller"
   },
   {
     "id": 19,
